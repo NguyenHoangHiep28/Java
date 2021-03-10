@@ -9,6 +9,11 @@ public class Vehicle {
     *
     * @return void
     */
+    public Vehicle(String vID, String vName, int numWheels){
+        vehicleNo = vID;
+        vehicleName = vName;
+        wheels = numWheels;
+    }
     public void accelerate(int speed){
         System.out.println("Accelerating at: " + speed + "kmph");
     }

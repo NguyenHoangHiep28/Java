@@ -13,9 +13,7 @@ public class FourWheeler extends Vehicle{
      */
     public FourWheeler(String vId, String vName, int numWheels, boolean pSteer){
         //Attributes inherited from parent class
-        vehicleNo = vId;
-        vehicleName = vName;
-        wheels = numWheels;
+       super(vId, vName, numWheels);
         //Child class' own attribute
         powerSteer = pSteer;
     }
