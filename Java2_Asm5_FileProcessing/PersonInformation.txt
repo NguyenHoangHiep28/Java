@@ -1,0 +1,3 @@
+Nguyen Van A;Cau Giay;1200
+Hoang Van B;Dong Da;2000
+Ha Van C;Hoang Mai;-1
