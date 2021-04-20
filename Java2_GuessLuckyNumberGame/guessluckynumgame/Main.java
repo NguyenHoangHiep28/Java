@@ -22,7 +22,7 @@ public class Main {
             eachGameGuessTimes.add(gm.guessAndGetTimes(sc));
             totalGames++;
             System.out.print("Bạn có muốn tiếp tục trò chơi hay không? Nhập Y để tiếp tục hoặc N để ngừng trò chơi ");
-            confirmContinue = sc.next();
+            confirmContinue = sc.nextLine();
         } while (confirmContinue.equalsIgnoreCase("y"));
         //get best game
         eachGameGuessTimes.sort((o1, o2) -> o1 - o2);
